@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.shdemo.service.ArsenalManagerTest" time="1.773" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="com.example.shdemo.service.ArsenalManagerTest" time="6.836" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.111-b14"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/pluszak/Desktop/java_hybernate-temp"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/pluszak/Desktop/java_hybernate/java_hybernate"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/pluszak/Desktop/java_hybernate-temp"/>
+    <property name="user.dir" value="/home/pluszak/Desktop/java_hybernate/java_hybernate"/>
     <property name="java.runtime.version" value="1.8.0_111-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
@@ -59,13 +59,13 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="addWeaponTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="1.572"/>
-  <testcase name="deleteWeaponTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.037"/>
-  <testcase name="editWeaponTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.007"/>
-  <testcase name="getWeaponById" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.027"/>
-  <testcase name="getAssignedAmmunitions" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.013"/>
-  <testcase name="addAmmunitionTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.022"/>
-  <testcase name="getAmmunitionByIdTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.012"/>
-  <testcase name="editAmmunitionTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.027"/>
-  <testcase name="deleteAmmunitionTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.056"/>
+  <testcase name="addWeaponTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="6.109"/>
+  <testcase name="deleteWeaponTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.182"/>
+  <testcase name="editWeaponTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.091"/>
+  <testcase name="getWeaponByIdTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.046"/>
+  <testcase name="getAssignedAmmunitionsTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.123"/>
+  <testcase name="addAmmunitionTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.021"/>
+  <testcase name="getAmmunitionByIdTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.033"/>
+  <testcase name="editAmmunitionTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.053"/>
+  <testcase name="deleteAmmunitionTest" classname="com.example.shdemo.service.ArsenalManagerTest" time="0.178"/>
 </testsuite>
