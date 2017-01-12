@@ -7,17 +7,17 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 
+// ???
 @Entity
 @NamedQueries({
-	@NamedQuery(name = "ammunition.all", query = "Select m from Medicine m"),
-	@NamedQuery(name = "ammunition.byId", query = "Select m from Medicine m where m.id = :id"),
-	@NamedQuery(name = "ammunition.notSold", query = "Select m from Medicine m where m.inWeapon = false")
+	@NamedQuery(name = "ammunition.all", query = "Select m from Ammunition m"),
+	@NamedQuery(name = "ammunition.byId", query = "Select m from Ammunition m where m.id = :id"),
 })
 public class Ammunition {
 	private Long id;
 	private String name;
 	private int cost;
-	private float caliber;
+	private int caliber;
 	private boolean inWeapon = false;
 	
 	public boolean isInWeapon() {
@@ -46,11 +46,11 @@ public class Ammunition {
 	public void setCost(int cost) {
 		this.cost = cost;
 	}
-	public float getCaliber() {
+	public int getCaliber() {
 		return caliber;
 	}
-	public void setCaliber(int Caliber) {
-		this.caliber = Caliber;
+	public void setCaliber(int caliber) {
+		this.caliber = caliber;
 	}
 	
 	

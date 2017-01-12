@@ -42,11 +42,12 @@ public class Weapon {
 		this.name = name;
 	}
 	
+	// ???
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 	public List<Ammunition> getAmmunitions() {
 		return ammunitions;
 	}
-	public void setAmmunitionss(List<Ammunition> ammunitions) {
+	public void setAmmunitions(List<Ammunition> ammunitions) {
 		this.ammunitions = ammunitions;
 	}
 }
